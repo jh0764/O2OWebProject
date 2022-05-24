@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery/test6.jsp</title>
+<script type="text/javascript" src="../script/jquery-3.6.0.js"></script>
+<script type="text/javascript">
+$(document).ready(function (){
+	// 배열변수
+	var arr=[
+		{"id":"kim","name":"김길동"},
+		{"id":"lee","name":"이길동"},
+		{"id":"hong","name":"홍길동"}
+	];
+	// Jquery each() 반복함수
+	$.each(arr,function(index,item){
+		alert(index);
+		alert(item),
+		alert(item.id);
+		alert(item.name);
+	});
+});
+</script>
+</head>
+<body>
+
+</body>
+</html>

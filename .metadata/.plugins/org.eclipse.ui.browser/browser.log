@@ -1,0 +1,11 @@
+
+3월 03, 2022 13:55:55.388 NEW SESSION
+3월 03, 2022 13:55:55.388 [6396:9516:0303/135555.374:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+3월 03, 2022 13:55:55.388 [6396:9516:0303/135555.374:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+3월 03, 2022 13:55:55.389 [6396:9516:0303/135555.374:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+3월 03, 2022 13:55:55.389 [6396:9516:0303/135555.377:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+3월 03, 2022 13:55:55.397 [6396:3612:0303/135555.393:ERROR:device_event_log_impl.cc(214)] [13:55:55.392] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+
+5월 18, 2022 12:15:18.892 NEW SESSION
+5월 18, 2022 12:15:18.892 [10944:6756:0518/121518.891:ERROR:device_event_log_impl.cc(214)] [12:15:18.891] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+5월 18, 2022 12:16:13.400 [10944:9736:0518/121613.400:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;jQuery&apos;&#x0D;&#x0A;- Original project: &apos;JspProject&apos;&#x0D;&#x0A;- Destination element: &apos;jQuery&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     6.jpg&#x0D;&#x0A;     8.jpg&#x0D;&#x0A;     7.jpg" description="Copy files" element1="src/main/webapp/css1/6.jpg" element2="src/main/webapp/css1/8.jpg" element3="src/main/webapp/css1/7.jpg" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1652236230280" target="/FunWeb/src/main/webapp/jQuery" units="0" version="1.0"/>
+</session>

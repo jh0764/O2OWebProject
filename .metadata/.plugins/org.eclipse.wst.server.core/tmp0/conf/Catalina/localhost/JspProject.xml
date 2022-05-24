@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context docBase="D:\jsp7\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JspProject" path="/JspProject" reloadable="true" source="org.eclipse.jst.jee.server:JspProject">
+	<Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" name="jdbc/MysqlDB" password="1234" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/jspdb7?serverTimezone=Asia/Seoul" username="root"/>
+</Context>

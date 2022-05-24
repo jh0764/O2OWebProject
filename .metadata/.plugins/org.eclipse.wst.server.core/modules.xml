@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:FunWeb" serverId="Tomcat 8.5 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:FunWeb2" serverId="Tomcat 8.5 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:JspProject" serverId="Tomcat 8.5 at localhost"/>
+</modules>

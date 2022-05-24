@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery/test7.jsp</title>
+<script type="text/javascript" src="../script/jquery-3.6.0.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+	$('#btn').click(function name() {
+		$.ajax({
+			url:"test_6.jsp",
+			date:,
+			success: function () {
+				$.each(arr,function(index,item){
+					$('#table1').append("<tr><td>"+item.id+"</td><td>"+item.name+"</td></tr>")
+				});
+			}
+	});	
+});
+
+
+});
+</script>
+</head>
+<body>
+<input type="button" value="버튼" id="btn">
+<table id="table1" border="1">
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>UI구현_김영준/test4.html</title>
+<style type="text/css">
+*{
+	margin: 0px; padding: 0px;
+}
+body{
+	background-color: #ccc;
+	padding: 20px;
+	list-style-position: inside;
+	
+}
+
+form {
+	background-color: white;
+	border: 1px solid #222;
+	border-radius: 5px;
+	padding: 30px;
+	margin: 30px auto;
+	width: 400px;
+}
+fieldset {
+	border: 1px solid #ccc;
+	margin-bottom: 30px;
+}
+legend {
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-bottom: 10px;
+}
+li {
+	line-height: 30px;
+	list-style-type: circle;
+	padding: 5px 10px;
+	margin-bottom: 2px;
+	
+	
+}
+label {
+	display: inline-block;
+	font-size: 15px;
+	width: 110px;
+	margin-left: auto; margin-right: auto;
+	}
+input{
+	line-height: 1;  padding: 4px;
+}
+.btn{
+ 	border: 1px solid #222; 
+	border-radius: 20px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	padding: 7px 25px;
+	margin: 0px auto;
+	display: block;
+}
+fieldset:last-of-type {
+	border: none;
+	margin-bottom: 0px;
+}
+
+</style>
+</head>
+<body>
+
+<form action="a.jsp" method="get">
+	<h1>ITWILL 회원가입</h1>
+	<fieldset>
+		
+		<legend>필수입력</legend>
+		<ul >
+			<li><label>이름</label>
+			    <input type="text" name="name" autofocus required></li>
+			<li><label>아이디</label>
+			    <input type="text" name="id" autofocus required placeholder="6~10자 영문과 숫자 조합"></li>
+			<li><label>비밀번호</label>
+			    <input type="password" name="pwd" autofocus placeholder="8~12자 영문,숫자,특수문자" required></li>
+			<li><label>성별</label>
+			    <input type="radio" name="성별" value="남">남
+			    <input type="radio" name="성별" value="여">여
+			    <input type="radio" name="성별" value="기타">기타</li>
+			 <li><label>생년월일</label>
+			 	<input type="date" name="date"></li>
+			 <li><label>전화번호</label>
+			 	 <input type="tel" name="tel" placeholder="(예시) 010-777-8888"></li>
+			 <li><label>email</label>
+			 <input type="email" name="email"></li>	 	
+		</ul>
+		</fieldset>
+		<fieldset>
+			<legend>선택입력</legend>
+			<ul>
+				<li><label>블로그주소 </label>
+			    <input type="text" name="블로그주소" ></li>
+				<li><label>학과 선택 </label>
+						<select name="grade">
+							<option value="1" selected>산업공학과</option>
+							<option value="2">컴퓨터공학과</option>
+							<option value="3" >영어영문학과</option>
+						</select></li>
+				<li><label>취미 선택 </label>
+						<select name="grade">
+							<option value="1" selected>요리</option>
+							<option value="2">운동</option>
+							<option value="3" >게임</option>
+						</select></li>		
+			</ul>
+		</fieldset>
+		<fieldset>
+		<input type="submit" value="가입" class="btn">
+	    </fieldset>
+</form>
+</body>
+</html>

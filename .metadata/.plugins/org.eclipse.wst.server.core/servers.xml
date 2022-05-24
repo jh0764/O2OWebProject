@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat 8.5 at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat 8.5 at localhost" name="Tomcat 8.5 at localhost" runtime-id="C-_Program Files_Apache Software Foundation_Tomcat 8.5" saveSeparateContextFiles="true" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="6">
+    <list key="modules" value0="JspProject::org.eclipse.jst.jee.server:JspProject::jst.web::3.1" value1="FunWeb::org.eclipse.jst.jee.server:FunWeb::jst.web::3.1" value2="FunWeb2::org.eclipse.jst.jee.server:FunWeb2::jst.web::3.1"/>
+  </server>
+</servers>
