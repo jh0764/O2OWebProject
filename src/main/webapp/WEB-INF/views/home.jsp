@@ -381,6 +381,7 @@ main{
   display: inline-block;
   font-family: Neucha, sans-serif;
   font-size: 1rem;
+  font-weight:bold;
   line-height: 23px;
   outline: none;
   padding: .75rem;
@@ -425,6 +426,22 @@ main{
 	color:#292B2F;
 	font-weight: bold;
 }
+
+/* 아이콘 카테고리 section */
+#row1{
+	background-color: rgb(250, 250, 252);
+	border-radius: 1em;
+}
+.card-body{
+	background-color: rgb(250, 250, 252);
+}
+.card{
+	background-color: rgb(250, 250, 252);
+}
+.icontext{
+	color: black;
+	font-weight: bold;
+ }
 </style> 
  
  
@@ -508,13 +525,16 @@ main{
 
 
   <div class="page-section">
+  
     <div class="container">
       <div class="row">
 		
 <!-- 아이콘 카테고리 -->
-<section>
-        <div class="container">
-            <div class="row">
+	
+<section >
+        <div class="container" >
+        <h5 class="icontext">다양한 서비스를 찾아보세요!</h5>
+            <div class="row" id="row1">
                 <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-2">
                     <div class="card p-3 text-center border-0" style=" cursor: pointer;" onclick="location.href='#';">
                         <div class="card-body">
@@ -823,7 +843,7 @@ main{
   </div>
 
 
-  <footer class="page-footer bg-image" style="background-image: url(resources/img/world_pattern.svg);">
+  <footer class="page-footer bg-image" style="background-image: url(resources/img/footer1.jpg);">
     <div class="container">
       <div class="row mb-5">
         <div class="col-lg-3 py-3">
